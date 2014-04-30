@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+
+}
+
+.header {
+	position: relative;
+	background: url('images/waves.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 522px;
+}
+
+.header img {
+	height: 100%;
+	width: 100%;	
+}
+
+.blog {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 18px;
+	color: #112682;
+	position: absolute;
+	top: 20px;
+	margin-left: 10%;
+   	width: 50%;
+   	
+
+	z-index: 2;
+}
+.about {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 18px;
+	color: #112682;
+	position: absolute;
+	top: 20px;
+	text-align: right;
+	padding-left: 36%;
+	width: 50%;
+ 	z-index: 2;
+}
+.logo {
+	font-family: 'Pt Sans Narrow', 'sans-serif';
+	font-size: 107px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 198px;
+	text-align: center;
+   	width: 100%;
+
+	z-index: 2;
+}
+
+.logosub{
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 17px;
+	color: #112682;
+	position: absolute;
+	top: 317px;
+	text-align: center;
+   	width: 100%;
+	z-index: 2;
+}
+
+.overlay {
+	height: 522px;
+	width: 100%;
+	background-color: rgb(43,101,201);
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+}
+.row1 {
+	width: 100%;
+	position: relative;
+}
+
+.headline {
+	font-family: 'Pt Sans Narrow', 'sans-serif';
+	font-size: 65px;
+	color: #112682;
+	width: 50%;
+	margin-top: 4.5%;
+	position: absolute;
+	padding-left: 10%;
+
+}
+.headlinesub {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 14px;
+	color: #112682;
+	position: absolute;
+	padding-left: 10%;
+	padding-top: 20px;
+	margin-top: 17%;
+
+}
+.headlinesub img {
+	float: left;
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+}
+
+.anmar {
+	margin-left: 72%;
+	position: absolute;
+	
+}
+
+.anmar img {
+	margin-top: 44%;
+	margin-left: 21%;
+}
+
+.name {
+	margin-top: 0;
+	margin-left: 24%;
+}
+
+.row2 {
+	width: 100%;
+	position: relative;
+}
+
+.article1 {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 18px;
+	color: #112682;
+	width: 50%;
+	margin-top: 23%;
+	position: absolute;
+	padding-left: 10%;
+
+}
+
+.rad {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 26px;
+	color: #112682;
+	width: 50%;
+	height: 44px;
+	margin-top: 43%;
+	margin-left: 10%;
+	position: absolute;
+	padding-left: 36px;
+	padding-top: 16px;
+	border-left: solid gray;
+}
+
+.ad img {
+
+	margin-left: 72%;
+	margin-top: 24%;
+	position: absolute;
+}
+
+.ad p {
+	font-family: 'Pt Sans Narrow', 'sans-serif';
+	font-size: 16px;
+	color: #112682;
+	position: absolute;
+	margin-left: 89%;
+	margin-top: 51%;
+}
+
+.article2 {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 18px;
+	color: #112682;
+	width: 50%;
+	margin-top: 49%;
+	position: absolute;
+	padding-left: 10%;
+
+}
+
+.avril {
+	margin-top: 10px;
+}
+
+.sectionh p {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 19px;
+	color: #112682;
+	width: 50%;
+	margin-top: 53%;
+	position: absolute;
+	padding-left: 72%;
+}
+
+.sectionh span {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 15px;
+	color: #112682;
+	width: 23%;
+	margin-top: 56%;
+	position: absolute;
+	padding-left: 72%;
+}
+
+.posts {
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 67px;
+	color: #112682;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: 82%;
+	border-top: solid gray thin;
+	padding-top: 2%;
+	margin-bottom: 18px;
+}
+.postblock {
+	position: relative;
+	width: 100%
+}
+.postblock1 {
+	position: absolute;
+	background: url('images/bottom1.jpg') no-repeat;
+	background-size: cover;
+	width: 25%;
+	height: 332px;
+	vertical-align: left;
+}
+.postblock2 {
+	position: absolute;
+	background: url('images/bottom1.jpg') no-repeat;
+	background-size: cover;
+	width: 25%;
+	height: 332px;
+	margin-left: 25%;
+}
+.postblock3 {
+	position: absolute;
+	background: url('images/bottom1.jpg') no-repeat;
+	background-size: cover;
+	width: 25%;
+	height: 332px;
+	margin-left: 50%;
+}
+.postblock4 {
+	position: absolute;
+	background: url('images/bottom1.jpg') no-repeat;
+	background-size: cover;
+	width: 25%;
+	height: 332px;
+	margin-left: 75%;
+}
+/*.footer {
+	position: relative;
+	width: 100%
+}*/
+.bluebar {
+	position: absolute;
+	width: 100%;
+	height: 98px;
+	background-color: #112682;
+	margin-top: 331px;
+}
+.copy {
+	font-family: 'Pt Sans Narrow', 'sans-serif';
+	font-size: 16px;
+	color: #FFFFFF;
+	z-index: 0;
+
+}
+.nav {
+	font-family: 'Pt Sans Narrow', 'sans-serif';
+	font-size: 16px;
+	color: #FFFFFF;
+	z-index: 0;
+
+}
