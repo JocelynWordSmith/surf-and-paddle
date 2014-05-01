@@ -1,7 +1,11 @@
 body {
 	margin: 0;
-	/*min-width: 993px;*/
 	overflow: scroll;
+	
+
+}
+body * {
+	text-decoration: none;
 }
 
 .waverow {
@@ -27,6 +31,7 @@ body {
 				margin-left: 10%;
 			  
 			}
+
 			.lhead span {
 				color: #003366;
 				position: absolute;
@@ -39,14 +44,20 @@ body {
 			
 			.rhead {
 				font-family: 'Oswald', Helvetica, sans-serif;
-				font-size: 17px;
-				color: #003366;
+				font-size: 18px;
 				position: absolute;
 				top: 20px;
 				text-align: right;
 				padding-left: 36%;
 				width: 50%;
 			 	
+			}
+			.about {
+				margin-left: 10px;
+			}
+			.rhead a {
+				color: #003366;
+				word-spacing: 5px;
 			}
 			.mhead {
 				font-family: 'Pt Sans Narrow', Helvetica, sans-serif;
@@ -101,9 +112,10 @@ body {
 						font-size: 13px;
 						color: #106db3;
 						display: inline-block;
+						margin-right: 20px;
 					}
 					.date {
-						
+						font-family: sans-serif;
 						font-size: 13px;
 						color: #a9b8c3;
 						display: inline;
@@ -163,8 +175,8 @@ body {
 				margin-bottom: 2px;
 			}
 			.info span {
-				font-family: 'Asap';
-				font-size: 15px;
+				font-family: 'Asap', sans-serif;
+				font-size: 14px;
 				color: #a9b8c3;
 				word-spacing: 11px;
 				margin-left: 4px;
@@ -177,12 +189,13 @@ body {
 			}
 			
 			.sectionh span {
-				font-family: 'Oswald', 'sans-serif', 'Narrow';
+				font-family: 'Asap', 'sans-serif', 'Narrow';
 				font-size: 15px;
 				color: #a9b8c3;
 				display: block;
 				margin-left: -40px;
 				line-height: 27px;
+				padding-right: 40px;
 			}
 			.sectionh p {
 				font-family: 'Oswald', 'sans-serif';
@@ -222,27 +235,160 @@ body {
 			}
 .postlink {
 	height: 330px;
-	width: 1320px;
+	min-width: 1000px;
 	
 	position: relative;
 	margin: 0 auto;
 	
 }			
-			.postlink img {
-				display:inline-block;
-				max-width: 325px;
+			.surf {
+				/*display:inline-block;*/
+				width: 25%;
 				height: 330px;
+				background-size: cover;
 				float: left;
+				background-image: url("images/surf.jpg");
+				}
+				.surfoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.4;
+				/*left: 0;*/
+				}
+				.surf span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.surfoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+					
+				}
+				.surf:hover span {
+					color: #FFFFFF;
+				}
+
+				.beers {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/beers.jpg");
+				}
+				.beersoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.beers span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.beersoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+				}
+				.beers:hover span {
+					color: #FFFFFF;
+				}
+
+				.zach {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/zach.jpg");
+				}
+				.zachoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.zach span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.zachoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+				}
+				
+				.zach:hover span {
+					color: #FFFFFF;
+				}
+
+				.bottles {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/bottles.jpg");
+				}
+				.bottlesoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.bottles span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.bottlesoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
 				
 				}
+				.bottles:hover span {
+					color: #FFFFFF;
+				}
+				
+			
 .foot {
 	height: 97px;
 	background-color: #083452;
+	min-width: 1060px;
 }
 			.foot span {
 				font-family: 'Asap';
 				font-size: 15px;
-				color: #99cccc;
+				color: #a3b3bf;
 				display: inline-block;
 				float: left;
 				margin-top: 39px;
@@ -251,7 +397,7 @@ body {
 			.foot p {
 				font-family: 'Asap';
 				font-size: 15px;
-				color: #99cccc;
+				color: #a3b3bf;
 				display: inline-block;
 				float: right;
 				margin-top: 39px;
