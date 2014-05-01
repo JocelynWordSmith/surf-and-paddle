@@ -31,7 +31,7 @@ body {
 				color: #003366;
 				position: absolute;
 				top: 22px;
-				margin-left: 12%;
+				margin-left: 14%;
 				font-size: 17px;
 				font-family: 'Asap', Helvetica, sans-serif;
 				
@@ -91,7 +91,7 @@ body {
 				margin-top: 60px;
 				line-height: 73px;
 			}
-					.articlecol img {
+					.minipic {
 						height: 21px;
 						width: 21px;
 						display: inline;
@@ -114,10 +114,10 @@ body {
 				color: #666666;
 				margin-top: 18px;
 				line-height: 30px;
-				margin-bottom: 10px;
+				margin-bottom: 11px;
 			}
 			.txt1 br {
-				line-height: 54px;
+				line-height: 39px;
 			}
 			.rad {
 				font-family: 'Asap';
@@ -134,15 +134,18 @@ body {
 				font-size: 17px;
 				color: #666666;
 				line-height: 26px;
-				margin-top: 46px;
+				margin-top: 36px;
 
 			}
 			.break {
-				line-height: 29px;
+				line-height: 47px;
 			}
 			.articon {
-				float: left;
-				margin-top: 1px;
+				/*float: left;*/
+				
+				display: inline-block;
+				margin-left: 2px;
+				margin-top: 6px;
 			}
 .infocol {
 	float: right;
@@ -153,29 +156,52 @@ body {
 }
 			.info p {
 				font-family: Asap, Helvetica, sans-serif;
-				font-size: 19px;
+				font-size: 18px;
 				color: #106db3;
+				margin-left: 54px;
+				margin-top: 5px;
+				margin-bottom: 2px;
 			}
 			.info span {
 				font-family: 'Asap';
-				font-size: 19px;
-				color: #a9b8c3;
-			}
-
-			.sectionh span {
-				font-family: 'Oswald', 'sans-serif';
 				font-size: 15px;
 				color: #a9b8c3;
+				word-spacing: 11px;
+				margin-left: 4px;
+				margin-top: 84px;
+			}
+			.info img {
+				margin-left: 59px;
+				margin-top: 82px;
+				padding-bottom: 2px;
+			}
+			
+			.sectionh span {
+				font-family: 'Oswald', 'sans-serif', 'Narrow';
+				font-size: 15px;
+				color: #a9b8c3;
+				display: block;
+				margin-left: -40px;
+				line-height: 27px;
 			}
 			.sectionh p {
 				font-family: 'Oswald', 'sans-serif';
-				font-size: 19px;
+				font-size: 18px;
 				color: #0066cc;
+				margin-top: 44px;
+				margin-left: -40px; 
+				margin-bottom: 8px;
+			}
+			.ad img {
+				margin-left: -39px;
+				margin-top: 51px;
 			}
 			.ad p {
 				font-family: 'Asap';
-				font-size: 16px;
+				font-size: 14px;
 				color: #a9b8c3;
+				margin-top: 3px;
+				margin-left: 152px;
 			}
 
 
@@ -192,6 +218,7 @@ body {
 				font-size: 67px;
 				color: #083452;
 				text-align: center;
+				margin-top: 22px;
 			}
 .postlink {
 	height: 330px;
@@ -214,13 +241,25 @@ body {
 }
 			.foot span {
 				font-family: 'Asap';
-				font-size: 16px;
+				font-size: 15px;
 				color: #99cccc;
 				display: inline-block;
+				float: left;
+				margin-top: 39px;
+				margin-left: 12px;
 			}
 			.foot p {
 				font-family: 'Asap';
-				font-size: 16px;
+				font-size: 15px;
 				color: #99cccc;
 				display: inline-block;
+				float: right;
+				margin-top: 39px;
+				margin-right: 177px
+			}
+			.foot img {
+				display: inline-block;
+				float: left;
+				margin-top: 26px;
+				margin-left: 166px;
 			}
