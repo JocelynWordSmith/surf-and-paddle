@@ -1,274 +1,226 @@
 body {
 	margin: 0;
-
+	/*min-width: 993px;*/
+	overflow: scroll;
 }
 
-.header {
-	position: relative;
-	background: url('images/waves.jpg') no-repeat;
+.waverow {
+	margin: 0;
+	height: 523px;
+	min-width: 993px;
+	/*margin-bottom: 10px;*/
+	background-image: url('images/waves.jpg') ;
 	background-size: cover;
-	width: 100%;
-	height: 522px;
+	position: relative;
 }
+			.overlay {
+				height: 523px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.9;
+				top: 0;
+			}
+			.lhead img {
+				color: #003366;
+				position: absolute;
+				top: 10px;
+				margin-left: 10%;
+			  
+			}
+			.lhead span {
+				color: #003366;
+				position: absolute;
+				top: 22px;
+				margin-left: 12%;
+				font-size: 17px;
+				font-family: 'Asap', Helvetica, sans-serif;
+				
+			}
+			
+			.rhead {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 17px;
+				color: #003366;
+				position: absolute;
+				top: 20px;
+				text-align: right;
+				padding-left: 36%;
+				width: 50%;
+			 	
+			}
+			.mhead {
+				font-family: 'Pt Sans Narrow', Helvetica, sans-serif;
+				font-size: 107px;
+				color: #FFFFFF;
+				position: absolute;
+				top: 198px;
+				text-align: center;
+			   	width: 100%;
 
-.header img {
-	height: 100%;
-	width: 100%;	
-}
+				z-index: 2;
+			}
+			.subhead{
+				font-family: 'Asap';
+				font-size: 17px;
+				color: #003366;
+				position: absolute;
+				top: 313px;
+				text-align: center;
+			   	width: 100%;
+				z-index: 2;
+			}
 
-.blog {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 18px;
-	color: #112682;
-	position: absolute;
-	top: 20px;
-	margin-left: 10%;
-   	width: 50%;
-   	
-
-	z-index: 2;
-}
-.about {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 18px;
-	color: #112682;
-	position: absolute;
-	top: 20px;
-	text-align: right;
-	padding-left: 36%;
-	width: 50%;
- 	z-index: 2;
-}
-.logo {
-	font-family: 'Pt Sans Narrow', 'sans-serif';
-	font-size: 107px;
-	color: #FFFFFF;
-	position: absolute;
-	top: 198px;
-	text-align: center;
-   	width: 100%;
-
-	z-index: 2;
-}
-
-.logosub{
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 17px;
-	color: #112682;
-	position: absolute;
-	top: 317px;
-	text-align: center;
-   	width: 100%;
-	z-index: 2;
-}
-
-.overlay {
-	height: 522px;
-	width: 100%;
-	background-color: rgb(43,101,201);
-	opacity: 0.8;
-	position: absolute;
-	top: 0;
-}
-.row1 {
-	width: 100%;
+.main {
+	width: 1020px;
+	height: 1020px;
+	margin: 0 auto;
 	position: relative;
 }
 
-.headline {
-	font-family: 'Pt Sans Narrow', 'sans-serif';
-	font-size: 65px;
-	color: #112682;
-	width: 50%;
-	margin-top: 4.5%;
-	position: absolute;
-	padding-left: 10%;
-
-}
-.headlinesub {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 14px;
-	color: #112682;
-	position: absolute;
-	padding-left: 10%;
-	padding-top: 20px;
-	margin-top: 17%;
-
-}
-.headlinesub img {
+.articlecol {
 	float: left;
-	height: 22px;
-	width: 22px;
-	display: inline-block;
+	height: 1006px;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	width: 630px;
 }
+			.ahead {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 65px;
+				color: #083452;
+				margin-top: 60px;
+				line-height: 73px;
+			}
+					.articlecol img {
+						height: 21px;
+						width: 21px;
+						display: inline;
+					}
+					.author {
+						font-family: 'Asap' ;
+						font-size: 13px;
+						color: #106db3;
+						display: inline-block;
+					}
+					.date {
+						
+						font-size: 13px;
+						color: #a9b8c3;
+						display: inline;
+					}
+			.txt1 {
+				font-family: 'Asap';
+				font-size: 16px;
+				color: #666666;
+				margin-top: 18px;
+				line-height: 30px;
+				margin-bottom: 10px;
+			}
+			.txt1 br {
+				line-height: 54px;
+			}
+			.rad {
+				font-family: 'Asap';
+				font-size: 27px;
+				color: #106db3;
+				border-color: #d3d3d3;
+				height: 44px;
+				border-left: solid gray thin;
+				padding-top: 17px;
+				padding-left: 20px;
+			}
+			.txt2 {
+				font-family: 'Asap';
+				font-size: 17px;
+				color: #666666;
+				line-height: 26px;
+				margin-top: 46px;
 
-.anmar {
-	margin-left: 72%;
-	position: absolute;
-	
+			}
+			.break {
+				line-height: 29px;
+			}
+			.articon {
+				float: left;
+				margin-top: 1px;
+			}
+.infocol {
+	float: right;
+	height: 1006px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	max-width: 278px;
 }
+			.info p {
+				font-family: Asap, Helvetica, sans-serif;
+				font-size: 19px;
+				color: #106db3;
+			}
+			.info span {
+				font-family: 'Asap';
+				font-size: 19px;
+				color: #a9b8c3;
+			}
 
-.anmar img {
-	margin-top: 44%;
-	margin-left: 21%;
-}
+			.sectionh span {
+				font-family: 'Oswald', 'sans-serif';
+				font-size: 15px;
+				color: #a9b8c3;
+			}
+			.sectionh p {
+				font-family: 'Oswald', 'sans-serif';
+				font-size: 19px;
+				color: #0066cc;
+			}
+			.ad p {
+				font-family: 'Asap';
+				font-size: 16px;
+				color: #a9b8c3;
+			}
 
-.name {
-	margin-top: 0;
-	margin-left: 24%;
-}
 
-.row2 {
-	width: 100%;
-	position: relative;
-}
 
-.article1 {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 18px;
-	color: #112682;
-	width: 50%;
-	margin-top: 23%;
-	position: absolute;
-	padding-left: 10%;
-
-}
-
-.rad {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 26px;
-	color: #112682;
-	width: 50%;
-	height: 44px;
-	margin-top: 43%;
-	margin-left: 10%;
-	position: absolute;
-	padding-left: 36px;
-	padding-top: 16px;
-	border-left: solid gray;
-}
-
-.ad img {
-
-	margin-left: 72%;
-	margin-top: 24%;
-	position: absolute;
-}
-
-.ad p {
-	font-family: 'Pt Sans Narrow', 'sans-serif';
-	font-size: 16px;
-	color: #112682;
-	position: absolute;
-	margin-left: 89%;
-	margin-top: 51%;
-}
-
-.article2 {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 18px;
-	color: #112682;
-	width: 50%;
-	margin-top: 49%;
-	position: absolute;
-	padding-left: 10%;
-
-}
-
-.avril {
-	margin-top: 10px;
-}
-
-.sectionh p {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 19px;
-	color: #112682;
-	width: 50%;
-	margin-top: 53%;
-	position: absolute;
-	padding-left: 72%;
-}
-
-.sectionh span {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 15px;
-	color: #112682;
-	width: 23%;
-	margin-top: 56%;
-	position: absolute;
-	padding-left: 72%;
-}
-
-.posts {
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 67px;
-	color: #112682;
-	width: 100%;
-	position: relative;
-	text-align: center;
-	margin-top: 82%;
+.posthead {
+	clear: both;
+	height: 147px;
 	border-top: solid gray thin;
-	padding-top: 2%;
-	margin-bottom: 18px;
+	margin: 0 auto;
+	margin-top: 1px;
 }
-.postblock {
+			.posthead h3 {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 67px;
+				color: #083452;
+				text-align: center;
+			}
+.postlink {
+	height: 330px;
+	width: 1320px;
+	
 	position: relative;
-	width: 100%
+	margin: 0 auto;
+	
+}			
+			.postlink img {
+				display:inline-block;
+				max-width: 325px;
+				height: 330px;
+				float: left;
+				
+				}
+.foot {
+	height: 97px;
+	background-color: #083452;
 }
-.postblock1 {
-	position: absolute;
-	background: url('images/bottom1.jpg') no-repeat;
-	background-size: cover;
-	width: 25%;
-	height: 332px;
-	vertical-align: left;
-}
-.postblock2 {
-	position: absolute;
-	background: url('images/bottom1.jpg') no-repeat;
-	background-size: cover;
-	width: 25%;
-	height: 332px;
-	margin-left: 25%;
-}
-.postblock3 {
-	position: absolute;
-	background: url('images/bottom1.jpg') no-repeat;
-	background-size: cover;
-	width: 25%;
-	height: 332px;
-	margin-left: 50%;
-}
-.postblock4 {
-	position: absolute;
-	background: url('images/bottom1.jpg') no-repeat;
-	background-size: cover;
-	width: 25%;
-	height: 332px;
-	margin-left: 75%;
-}
-/*.footer {
-	position: relative;
-	width: 100%
-}*/
-.bluebar {
-	position: absolute;
-	width: 100%;
-	height: 98px;
-	background-color: #112682;
-	margin-top: 331px;
-}
-.copy {
-	font-family: 'Pt Sans Narrow', 'sans-serif';
-	font-size: 16px;
-	color: #FFFFFF;
-	z-index: 0;
-
-}
-.nav {
-	font-family: 'Pt Sans Narrow', 'sans-serif';
-	font-size: 16px;
-	color: #FFFFFF;
-	z-index: 0;
-
-}
+			.foot span {
+				font-family: 'Asap';
+				font-size: 16px;
+				color: #99cccc;
+				display: inline-block;
+			}
+			.foot p {
+				font-family: 'Asap';
+				font-size: 16px;
+				color: #99cccc;
+				display: inline-block;
+			}
