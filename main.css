@@ -50,15 +50,15 @@ body * {
 				text-align: right;
 				padding-left: 36%;
 				width: 50%;
+				color: #003366;
+				word-spacing: 5px;
 			 	
 			}
 			.about {
 				margin-left: 10px;
 			}
-			.rhead a {
-				color: #003366;
-				word-spacing: 5px;
-			}
+			
+			
 			.mhead {
 				font-family: 'Pt Sans Narrow', Helvetica, sans-serif;
 				font-size: 107px;
