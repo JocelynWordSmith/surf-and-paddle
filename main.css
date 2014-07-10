@@ -1,0 +1,411 @@
+body {
+	margin: 0;
+	overflow: scroll;
+	
+
+}
+body * {
+	text-decoration: none;
+}
+
+.waverow {
+	margin: 0;
+	height: 523px;
+	min-width: 993px;
+	/*margin-bottom: 10px;*/
+	background-image: url('images/waves.jpg') ;
+	background-size: cover;
+	position: relative;
+}
+			.overlay {
+				height: 523px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.9;
+				top: 0;
+			}
+			.lhead img {
+				color: #003366;
+				position: absolute;
+				top: 10px;
+				margin-left: 10%;
+			  
+			}
+
+			.lhead span {
+				color: #003366;
+				position: absolute;
+				top: 22px;
+				margin-left: 14%;
+				font-size: 17px;
+				font-family: 'Asap', Helvetica, sans-serif;
+				
+			}
+			
+			.rhead {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 18px;
+				position: absolute;
+				top: 20px;
+				text-align: right;
+				padding-left: 36%;
+				width: 50%;
+				color: #003366;
+				word-spacing: 5px;
+			 	
+			}
+			.about {
+				margin-left: 10px;
+			}
+			
+			
+			.mhead {
+				font-family: 'Pt Sans Narrow', Helvetica, sans-serif;
+				font-size: 107px;
+				color: #FFFFFF;
+				position: absolute;
+				top: 198px;
+				text-align: center;
+			   	width: 100%;
+
+				z-index: 1;
+			}
+			.subhead{
+				font-family: 'Asap';
+				font-size: 17px;
+				color: #003366;
+				position: absolute;
+				top: 313px;
+				text-align: center;
+			   	width: 100%;
+				z-index: 2;
+			}
+
+.main {
+	width: 1020px;
+	height: 1020px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.articlecol {
+	float: left;
+	height: 1006px;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	width: 630px;
+}
+			.ahead {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 65px;
+				color: #083452;
+				margin-top: 60px;
+				line-height: 73px;
+			}
+					.minipic {
+						height: 21px;
+						width: 21px;
+						display: inline;
+					}
+					.author {
+						font-family: 'Asap' ;
+						font-size: 13px;
+						color: #106db3;
+						display: inline-block;
+						margin-right: 20px;
+					}
+					.date {
+						font-family: sans-serif;
+						font-size: 13px;
+						color: #a9b8c3;
+						display: inline;
+					}
+			.txt1 {
+				font-family: 'Asap';
+				font-size: 16px;
+				color: #666666;
+				margin-top: 18px;
+				line-height: 30px;
+				margin-bottom: 11px;
+			}
+			.txt1 br {
+				line-height: 39px;
+			}
+			.rad {
+				font-family: 'Asap';
+				font-size: 27px;
+				color: #106db3;
+				border-color: #d3d3d3;
+				height: 44px;
+				border-left: solid gray thin;
+				padding-top: 17px;
+				padding-left: 20px;
+			}
+			.txt2 {
+				font-family: 'Asap';
+				font-size: 17px;
+				color: #666666;
+				line-height: 26px;
+				margin-top: 36px;
+
+			}
+			.break {
+				line-height: 47px;
+			}
+			.articon {
+				/*float: left;*/
+				
+				display: inline-block;
+				margin-left: 2px;
+				margin-top: 6px;
+			}
+.infocol {
+	float: right;
+	height: 1006px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	max-width: 278px;
+}
+			.info p {
+				font-family: Asap, Helvetica, sans-serif;
+				font-size: 18px;
+				color: #106db3;
+				margin-left: 54px;
+				margin-top: 5px;
+				margin-bottom: 2px;
+			}
+			.info span {
+				font-family: 'Asap', sans-serif;
+				font-size: 14px;
+				color: #a9b8c3;
+				word-spacing: 11px;
+				margin-left: 4px;
+				margin-top: 84px;
+			}
+			.info img {
+				margin-left: 59px;
+				margin-top: 82px;
+				padding-bottom: 2px;
+			}
+			
+			.sectionh span {
+				font-family: 'Asap', 'sans-serif', 'Narrow';
+				font-size: 15px;
+				color: #a9b8c3;
+				display: block;
+				margin-left: -40px;
+				line-height: 27px;
+				padding-right: 40px;
+			}
+			.sectionh p {
+				font-family: 'Oswald', 'sans-serif';
+				font-size: 18px;
+				color: #0066cc;
+				margin-top: 44px;
+				margin-left: -40px; 
+				margin-bottom: 8px;
+			}
+			.ad img {
+				margin-left: -39px;
+				margin-top: 51px;
+			}
+			.ad p {
+				font-family: 'Asap';
+				font-size: 14px;
+				color: #a9b8c3;
+				margin-top: 3px;
+				margin-left: 152px;
+			}
+
+
+
+.posthead {
+	clear: both;
+	height: 147px;
+	border-top: solid gray thin;
+	margin: 0 auto;
+	margin-top: 1px;
+}
+			.posthead h3 {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 67px;
+				color: #083452;
+				text-align: center;
+				margin-top: 22px;
+			}
+.postlink {
+	height: 330px;
+	min-width: 1000px;
+	
+	position: relative;
+	margin: 0 auto;
+	
+}			
+			.surf {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/surf.jpg");
+				}
+				.surfoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.4;
+				/*left: 0;*/
+				}
+				.surf span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.surfoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+					
+				}
+				.surf:hover span {
+					color: #FFFFFF;
+				}
+
+				.beers {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/beers.jpg");
+				}
+				.beersoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.beers span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.beersoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+				}
+				.beers:hover span {
+					color: #FFFFFF;
+				}
+
+				.zach {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/zach.jpg");
+				}
+				.zachoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.zach span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.zachoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+				}
+				
+				.zach:hover span {
+					color: #FFFFFF;
+				}
+
+				.bottles {
+				/*display:inline-block;*/
+				width: 25%;
+				height: 330px;
+				background-size: cover;
+				float: left;
+				background-image: url("images/bottles.jpg");
+				}
+				.bottlesoverlay {
+				height: 330px;
+				width: 100%;
+				background-color: rgb(24,103,173);
+				opacity: 0.5;
+				/*left: 0;*/
+				}
+
+				.bottles span {
+				font-family: 'Oswald', Helvetica, sans-serif;
+				font-size: 31px;
+				color: #083452;
+				position: absolute;
+				max-width:25%;
+				bottom: 0px;
+				
+
+				}
+				.bottlesoverlay:hover {
+					background-color: rgb(24,103,173);
+					opacity: 0.2;
+				
+				}
+				.bottles:hover span {
+					color: #FFFFFF;
+				}
+				
+			
+.foot {
+	height: 97px;
+	background-color: #083452;
+	min-width: 1060px;
+}
+			.foot span {
+				font-family: 'Asap';
+				font-size: 15px;
+				color: #a3b3bf;
+				display: inline-block;
+				float: left;
+				margin-top: 39px;
+				margin-left: 12px;
+			}
+			.foot p {
+				font-family: 'Asap';
+				font-size: 15px;
+				color: #a3b3bf;
+				display: inline-block;
+				float: right;
+				margin-top: 39px;
+				margin-right: 177px
+			}
+			.foot img {
+				display: inline-block;
+				float: left;
+				margin-top: 26px;
+				margin-left: 166px;
+			}
